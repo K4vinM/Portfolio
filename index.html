@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en" data-accent="blue">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kavin Manikandan, portfolio</title>
+  <meta name="description" content="Portfolio of Kavin Manikandan, biomedical engineering master's student at Duke University.">
+  <!-- Add your font link here once you pick fonts -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV: the timeline IS the navigation. Blocks = sections, playhead follows your scroll. -->
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top">Kavin</a>
+    <nav class="tl" id="tl" aria-label="Sections">
+      <div class="g16" id="g16" aria-hidden="true"></div>
+      <a class="blk" href="#top"><span class="n">01</span><span class="w"> Intro</span></a>
+      <a class="blk" href="#education"><span class="n">02</span><span class="w"> Education</span></a>
+      <a class="blk" href="#projects"><span class="n">03</span><span class="w"> Projects</span></a>
+      <a class="blk" href="#skills"><span class="n">04</span><span class="w"> Skills</span></a>
+      <a class="blk" href="#experience"><span class="n">05</span><span class="w"> Experience</span></a>
+      <a class="blk" href="#contact"><span class="n">06</span><span class="w"> Contact</span></a>
+      <a class="blk" href="#bsides"><span class="n">07</span><span class="w"> B-sides</span></a>
+      <div class="ph" id="ph" aria-hidden="true"></div>
+    </nav>
+    <span class="tc" id="tc" aria-hidden="true">00:00 / 05:00</span>
+    <a class="btn small" href="cv.pdf" download><span class="w">Download&nbsp;</span>CV</a>
+  </div>
+</header>
+
+<main>
+  <!-- 01 INTRO: text on the left, your photo and the logo on the right -->
+  <section id="top" class="hero wrap">
+    <div class="hero-text">
+      <h1>Kavin</h1>
+      <p class="role">Master's student</p>
+      <p class="lede">EDIT: one short sentence about you.</p>
+      <div class="actions">
+        <a class="btn" href="#projects">View projects</a>
+        <a class="btn ghost" href="cv.pdf" download>Download CV</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <!-- To add your pictures, replace each placeholder div with an image, for example:
+           <img class="photo" src="images/photo.jpg" alt="Kavin">
+           <img class="logo" src="images/blue-devils.png" alt="Blue Devils logo">
+           (check the university's brand rules before using its logo) -->
+      <div class="slot photo">Your photo</div>
+      <div class="slot logo">Logo</div>
+    </div>
+  </section>
+
+  <!-- 02 EDUCATION -->
+  <section id="education" class="wrap">
+    <h2><span class="n">02</span> Education<span class="t" data-i="1"></span></h2>
+    <div class="cards">
+      <article class="xcard"><span class="trk">01</span><p class="kind">Master's</p><h3>Master of Engineering, Biomedical Engineering</h3><p class="when">Expected Summer 2028</p><p>Duke University, Pratt School of Engineering. Medical Device Design Certificate and a Certificate in Innovation &amp; Entrepreneurship.</p></article>
+      <article class="xcard"><span class="trk">02</span><p class="kind">Bachelor's</p><h3>B.Tech, Biotechnology</h3><p class="when">Completed Aug 2025</p><p>Vellore Institute of Technology. GPA 9.5/10, rank 6 of 284 (top 2%). Merit Scholarship, 2023–24 and 2024–25. Winner, VIT Medical Hackathon.</p></article>
+    </div>
+  </section>
+
+  <!-- 03 PROJECTS: cards, filters and pop-up are built from PROJECTS in script.js -->
+  <section id="projects" class="wrap">
+    <h2><span class="n">03</span> Projects<span class="t" data-i="2"></span></h2>
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>No projects match those labels. Clear a filter to see more.</p>
+  </section>
+
+  <!-- 04 SKILLS -->
+  <section id="skills" class="wrap">
+    <h2><span class="n">04</span> Skills<span class="t" data-i="3"></span></h2>
+    <div class="skills">
+      <div><h3>Regulatory &amp; quality</h3><ul class="tags"><li>ISO 13485</li><li>FDA 21 CFR 820</li><li>Design controls</li><li>Risk management (FMECA)</li></ul></div>
+      <div><h3>Technical tools</h3><ul class="tags"><li>Minitab</li><li>Python</li><li>R</li><li>MATLAB</li><li>Fusion 360</li><li>Microsoft Office</li></ul></div>
+      <div><h3>Life sciences techniques</h3><ul class="tags"><li>PCR/qPCR</li><li>CRISPR/Cas9</li><li>Flow cytometry</li><li>NGS data analysis</li></ul></div>
+    </div>
+  </section>
+
+  <!-- 05 EXPERIENCE -->
+  <section id="experience" class="wrap">
+    <h2><span class="n">05</span> Experience<span class="t" data-i="4"></span></h2>
+    <div class="cards">
+      <article class="xcard"><span class="trk">01</span><p class="kind">Work</p><h3>Quality &amp; Regulatory Associate, Medical Devices</h3><p class="when">Aug 2025 to Aug 2026</p><p>Caldor Health Technologies, Coimbatore. Built a 100+ document quality system from scratch and reached ISO 13485 certification with zero non-conformances. Ran a FMECA risk assessment across 11 subsystems and co-wrote proposals that secured $625,000 in funding.</p></article>
+      <article class="xcard"><span class="trk">02</span><p class="kind">Internship</p><h3>Research Intern</h3><p class="when">Aug to Sep 2023</p><p>TheraCUES Innovations, Bangalore. Co-developed a rapid sepsis diagnostic test that cut time to diagnosis from 24+ hours to under two, and analyzed gene expression data from 30+ patient samples.</p></article>
+      <article class="xcard"><span class="trk">03</span><p class="kind">Leadership</p><h3>Design Head, Society for Biological Engineering (VIT)</h3><p class="when">Jan 2023 to Jan 2024</p><p>Led a 300-person student organization, planned 20+ events, and grew design team participation by 30%.</p></article>
+      <article class="xcard"><span class="trk">04</span><p class="kind">Leadership</p><h3>Vice President, Public Relations, Toastmasters (VIT)</h3><p class="when">Jul to Dec 2023</p><p>Grew club membership by 50% and mentored 8 junior students in public speaking.</p></article>
+    </div>
+  </section>
+
+  <!-- 06 CONTACT -->
+  <section id="contact" class="wrap">
+    <h2><span class="n">06</span> Contact<span class="t" data-i="5"></span></h2>
+    <p class="big">EDIT: one sentence inviting people to get in touch.</p>
+    <div class="contact-grid">
+      <!-- Replace FORM_ENDPOINT with your form service link when you set one up -->
+      <form id="form" action="FORM_ENDPOINT" method="POST">
+        <label>Name<input name="name" required autocomplete="name"></label>
+        <label>Email<input name="email" type="email" required autocomplete="email"></label>
+        <label>Message<textarea name="message" rows="5" required></textarea></label>
+        <button class="btn" type="submit">Send</button>
+        <p class="note" id="form-note" role="status"></p>
+      </form>
+      <div class="direct">
+        <p>Or email directly:</p>
+        <p><a href="mailto:kavinmanikandan.mk@gmail.com">kavinmanikandan.mk@gmail.com</a></p>
+        <p class="links-row"><a href="https://www.linkedin.com/in/kavinmanikandan">LinkedIn</a> <a href="#">GitHub</a></p>
+        <p><a class="btn ghost" href="cv.pdf" download>Download CV</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 B-SIDES -->
+  <section id="bsides" class="wrap">
+    <h2><span class="n">07</span> B-sides<span class="t" data-i="6"></span></h2>
+    <div class="bs">
+      <!-- Writing stays hidden until your first article: delete the word "hidden" then -->
+      <div hidden>
+        <h3>Writing</h3>
+        <ul class="list"><li><a href="#">EDIT: article title</a></li></ul>
+        <p class="hobbies"><a class="text-link" href="blog.html">All articles</a></p>
+      </div>
+      <div>
+        <h3>On repeat</h3>
+        <ul class="list">
+          <li><a href="#">EDIT: album or track, artist</a></li>
+          <li><a href="#">EDIT: album or track, artist</a></li>
+          <li><a href="#">EDIT: album or track, artist</a></li>
+          <li><a href="#">EDIT: album or track, artist</a></li>
+        </ul>
+        <p class="hobbies">Drumming and electronic music production (10,000+ online streams), Formula 1, and MotoGP.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+ <div class="wrap">
+  <p class="closing">EDIT: your closing line.</p>
+  <div class="foot-row">
+    <p>Kavin Manikandan, <span id="year"></span></p>
+    <nav aria-label="Footer"><a href="mailto:kavinmanikandan.mk@gmail.com">Email</a> <a href="https://www.linkedin.com/in/kavinmanikandan">LinkedIn</a> <a href="#">GitHub</a> <a href="blog.html" hidden>Blog</a> <a href="#top">Back to top</a></nav>
+  </div>
+ </div>
+</footer>
+
+<!-- Project pop-up -->
+<dialog id="modal" aria-labelledby="m-title">
+  <div class="m-body">
+    <button class="close" id="close">Close</button>
+    <div class="m-head"><div class="disc m-disc" aria-hidden="true"></div><h3 id="m-title"></h3></div>
+    <p class="where" id="m-where"></p>
+    <ul class="tags" id="m-tags"></ul>
+    <div class="gallery">
+      <div class="viewer" id="viewer"></div>
+      <div class="g-bar"><button id="prev" aria-label="Previous">Prev</button><span id="count"></span><button id="next" aria-label="Next">Next</button></div>
+    </div>
+    <dl id="m-details"></dl>
+    <a class="btn small" id="m-link" href="#" hidden>View project</a>
+  </div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
