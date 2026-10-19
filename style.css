@@ -16,6 +16,7 @@ html[data-accent="amber"]{--accent:#f2a33a}
 html[data-accent="teal"]{--accent:#2dd4bf}
 html[data-accent="violet"]{--accent:#9b7bff}
 html[data-accent="red"]{--accent:#ef5b5b}
+[hidden]{display:none!important}
 *{box-sizing:border-box;margin:0;padding:0}
 ::selection{background:var(--accent);color:var(--on-accent)}
 html{scroll-behavior:smooth;scroll-padding-top:var(--nav-h)}
@@ -198,3 +199,13 @@ dialog[open]{animation:fade .2s ease-out}
   .logo{left:auto;right:-.75rem;width:88px}
   .post{grid-template-columns:1fr;gap:.2rem}
 }
+
+/* LOGO and CONTACT ICONS */
+.logo-tile{display:block;width:min(100%,300px)}
+.logo-tile img{display:block;width:100%;height:auto}
+.photo:not([hidden]) ~ .logo-tile{position:absolute;left:-1.75rem;bottom:-1.75rem;width:112px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r-lg);padding:.6rem}
+.social{display:flex;flex-direction:column;gap:.7rem}
+.direct .social a{display:inline-flex;align-items:center;gap:.8rem;text-decoration:none}
+.social .ic{display:grid;place-items:center;flex:none;width:42px;height:42px;border:1px solid var(--line);border-radius:var(--r);transition:border-color .15s,color .15s}
+.direct .social a:hover .ic{border-color:var(--accent);color:var(--accent)}
+@media (max-width:720px){.logo-tile{width:min(60%,220px)}}

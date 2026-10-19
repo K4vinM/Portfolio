@@ -9,16 +9,16 @@ const COVER_SAT = 40;        // colour of the placeholder covers (0 = grey, 70 =
      { kind:"video", src:"videos/a.mp4" }  or  { kind:"video", embed:"https://www.youtube.com/embed/ID" }
    link: optional. Leave it out and no button shows.                                      */
 const PROJECTS = [
-  { title:"Project A", where:"University name", hue:28,  type:["Type 1"], tools:["Tool X","Tool Y"], context:["Course"],
+  { title:"Project A", where:"University name", hue:28,  type:["Device design"], tools:["Fusion 360","MATLAB"], context:["Course"],
     details:{ Problem:"EDIT", Role:"EDIT", Methods:"EDIT", Outcome:"EDIT" }, link:"#",
     media:[{kind:"image",alt:"Summary image"},{kind:"image",alt:"Second image"},{kind:"video",alt:"Demo video"}] },
-  { title:"Project B", where:"University name", hue:190, type:["Type 2"], tools:["Tool Y"], context:["Personal"],
+  { title:"Project B", where:"University name", hue:190, type:["Computational biology"], tools:["Python"], context:["Personal"],
     details:{ Problem:"EDIT", Role:"EDIT", Methods:"EDIT", Outcome:"EDIT" },
     media:[{kind:"image",alt:"Summary image"}] },
-  { title:"Project C", where:"University name", hue:330, type:["Type 1","Type 3"], tools:["Tool Z"], context:["Team/Hackathon"],
+  { title:"Project C", where:"University name", hue:330, type:["Device design","Quality & regulatory"], tools:["Minitab"], context:["Team/Hackathon"],
     details:{ Problem:"EDIT", Role:"EDIT", Methods:"EDIT", Outcome:"EDIT" }, link:"#",
     media:[{kind:"image",alt:"Summary image"},{kind:"image",alt:"Second image"}] },
-  { title:"Project D", where:"University name", hue:120, type:["Type 3"], tools:["Tool X","Tool Z"], context:["Course"],
+  { title:"Project D", where:"University name", hue:120, type:["Quality & regulatory"], tools:["Python","MATLAB"], context:["Course"],
     details:{ Problem:"EDIT", Role:"EDIT", Methods:"EDIT", Outcome:"EDIT" },
     media:[{kind:"image",alt:"Summary image"}] },
 ];
