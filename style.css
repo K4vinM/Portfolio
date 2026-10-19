@@ -107,9 +107,27 @@ section.hero.wrap{padding-top:2rem}
 .skill-head{display:flex;align-items:center;gap:.8rem}
 .skill-icon{display:grid;place-items:center;flex:none;width:2.45rem;height:2.45rem;border-radius:var(--r);color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,transparent);border:1px solid color-mix(in srgb,var(--accent) 35%,var(--line))}
 .skill-icon svg{width:1.35rem;height:1.35rem}
-.kind{font-size:.8rem;color:var(--accent);margin-bottom:.4rem}
-.when{font-size:.85rem;color:var(--muted);margin:.25rem 0 .7rem}
-.xcard p:last-child{color:var(--muted)}
+.kind{
+  font-size:.8rem;
+  color:var(--accent);
+  margin-bottom:.4rem;
+}
+
+.org-name{
+  font:500 .9rem/1.35 var(--display);
+  color:var(--text);
+  margin-top:.35rem;
+}
+
+.when{
+  font-size:.85rem;
+  color:var(--muted);
+  margin:.25rem 0 .7rem;
+}
+
+.card-description{
+  color:var(--muted);
+}
 
 /* CONTACT */
 .big{font:500 clamp(1.3rem,3.5vw,1.9rem)/1.3 var(--display);max-width:36rem;margin-bottom:2.5rem}
