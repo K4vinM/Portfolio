@@ -98,7 +98,7 @@ section.hero.wrap{padding-top:2rem}
 .xcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:1.4rem}
 .card-top{display:flex;align-items:center;gap:.75rem;margin-bottom:.8rem;padding-right:2rem;min-height:2.25rem}
 .card-top .kind{margin:0}
-.org-logo{width:42px;height:42px;flex:none;object-fit:contain;border-radius:50%;background:#fff;border:1px solid var(--line);padding:3px}
+.org-logo{display:block;width:44px;height:44px;flex:0 0 44px;aspect-ratio:1;object-fit:cover;object-position:center;border-radius:50%;background:#fff;border:1px solid var(--line);padding:0;overflow:hidden}
 .org-mark{display:inline-flex;align-items:center;justify-content:center;flex:none;min-height:2rem;padding:.25rem .55rem;border:1px solid var(--line);border-radius:var(--r-sm);font:700 .72rem/1 var(--display);letter-spacing:.01em;color:var(--text);background:color-mix(in srgb,var(--bg) 55%,transparent)}
 .duke-mark{font-family:Georgia,serif;font-size:1rem;color:#fff;background:#003087;border-color:#5b8def}
 .vit-mark{color:#111;background:#ffcd00;border-color:#ffcd00}
