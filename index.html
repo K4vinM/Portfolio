@@ -26,7 +26,7 @@
       <div class="ph" id="ph" aria-hidden="true"></div>
     </nav>
     <span class="tc" id="tc" aria-hidden="true">00:00 / 05:00</span>
-    <a class="btn small" href="cv.pdf" download><span class="w">Download&nbsp;</span>CV</a>
+    <a class="btn small" href="cv.pdf" download="kavin_cv.pdf"><span class="w">Download&nbsp;</span>CV</a>
   </div>
 </header>
 
@@ -34,20 +34,16 @@
   <!-- 01 INTRO: text on the left, your photo and the logo on the right -->
   <section id="top" class="hero wrap">
     <div class="hero-text">
-      <h1>Kavin</h1>
+      <h1>Kavin Manikandan</h1>
       <p class="role">Master's student</p>
       <p class="lede">EDIT: one short sentence about you.</p>
       <div class="actions">
         <a class="btn" href="#projects">View projects</a>
-        <a class="btn ghost" href="cv.pdf" download>Download CV</a>
+        <a class="btn ghost" href="cv.pdf" download="kavin_cv.pdf">Download CV</a>
       </div>
     </div>
     <div class="hero-media">
-      <!-- Your photo is hidden for now. To show it: put your picture at images/photo.jpg,
-           replace the placeholder with <img class="photo" src="images/photo.jpg" alt="Kavin">
-           and delete the word "hidden". The logo will then tuck into its corner. -->
-      <div class="slot photo" hidden>Your photo</div>
-      <div class="logo-tile"><img src="images/blue-devils.png" alt="Duke Blue Devils logo" width="476" height="640"></div>
+      <div class="logo-tile"><img src="blue-devils.png" alt="Duke Blue Devils logo" width="476" height="640"></div>
     </div>
   </section>
 
@@ -55,8 +51,8 @@
   <section id="education" class="wrap">
     <h2><span class="n">02</span> Education<span class="t" data-i="1"></span></h2>
     <div class="cards">
-      <article class="xcard"><span class="trk">01</span><p class="kind">Master's</p><h3>Master of Engineering, Biomedical Engineering</h3><p class="when">Expected Summer 2028</p><p>Duke University, Pratt School of Engineering. Medical Device Design Certificate and a Certificate in Innovation &amp; Entrepreneurship.</p></article>
-      <article class="xcard"><span class="trk">02</span><p class="kind">Bachelor's</p><h3>B.Tech, Biotechnology</h3><p class="when">Completed Aug 2025</p><p>Vellore Institute of Technology. GPA 9.5/10, rank 6 of 284 (top 2%). Merit Scholarship, 2023–24 and 2024–25. Winner, VIT Medical Hackathon.</p></article>
+      <article class="xcard"><span class="trk">01</span><div class="card-top"><span class="org-mark duke-mark" aria-label="Duke University">Duke</span><p class="kind">Master's</p></div><h3>Master of Engineering, Biomedical Engineering</h3><p class="when">Expected Summer 2028</p><p>Duke University, Pratt School of Engineering. Medical Device Design Certificate and a Certificate in Innovation &amp; Entrepreneurship.</p></article>
+      <article class="xcard"><span class="trk">02</span><div class="card-top"><span class="org-mark vit-mark" aria-label="Vellore Institute of Technology">VIT</span><p class="kind">Bachelor's</p></div><h3>B.Tech, Biotechnology</h3><p class="when">Completed Aug 2025</p><p>Vellore Institute of Technology. GPA 9.5/10, rank 6 of 284 (top 2%). Merit Scholarship, 2023–24 and 2024–25. Winner, VIT Medical Hackathon.</p></article>
     </div>
   </section>
 
@@ -72,9 +68,9 @@
   <section id="skills" class="wrap">
     <h2><span class="n">04</span> Skills<span class="t" data-i="3"></span></h2>
     <div class="skills">
-      <div><h3>Regulatory &amp; quality</h3><ul class="tags"><li>ISO 13485</li><li>FDA 21 CFR 820</li><li>Design controls</li><li>Risk management (FMECA)</li></ul></div>
-      <div><h3>Technical tools</h3><ul class="tags"><li>Minitab</li><li>Python</li><li>R</li><li>MATLAB</li><li>Fusion 360</li><li>Microsoft Office</li></ul></div>
-      <div><h3>Life sciences techniques</h3><ul class="tags"><li>PCR/qPCR</li><li>CRISPR/Cas9</li><li>Flow cytometry</li><li>NGS data analysis</li></ul></div>
+      <article class="skill-card"><div class="skill-head"><span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m12 3 7 3v5c0 4.6-3 8-7 10-4-2-7-5.4-7-10V6l7-3Z"/><path d="m9 12 2 2 4-4"/></svg></span><h3>Regulatory &amp; quality</h3></div><ul class="tags"><li>ISO 13485</li><li>FDA 21 CFR 820</li><li>Design controls</li><li>Risk management (FMECA)</li></ul></article>
+      <article class="skill-card"><div class="skill-head"><span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 13h5M8 17h3"/></svg></span><h3>Technical tools</h3></div><ul class="tags"><li>Minitab</li><li>Python</li><li>R</li><li>MATLAB</li><li>Fusion 360</li><li>Microsoft Office</li></ul></article>
+      <article class="skill-card"><div class="skill-head"><span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M8 3v5.5a4 4 0 1 0 8 0V3"/><path d="M8 6h8M8 17h8M10 21h4"/></svg></span><h3>Life sciences techniques</h3></div><ul class="tags"><li>PCR/qPCR</li><li>CRISPR/Cas9</li><li>Flow cytometry</li><li>NGS data analysis</li></ul></article>
     </div>
   </section>
 
@@ -82,10 +78,10 @@
   <section id="experience" class="wrap">
     <h2><span class="n">05</span> Experience<span class="t" data-i="4"></span></h2>
     <div class="cards">
-      <article class="xcard"><span class="trk">01</span><p class="kind">Work</p><h3>Quality &amp; Regulatory Associate, Medical Devices</h3><p class="when">Aug 2025 to Aug 2026</p><p>Caldor Health Technologies, Coimbatore. Built a 100+ document quality system from scratch and reached ISO 13485 certification with zero non-conformances. Ran a FMECA risk assessment across 11 subsystems and co-wrote proposals that secured $625,000 in funding.</p></article>
-      <article class="xcard"><span class="trk">02</span><p class="kind">Internship</p><h3>Research Intern</h3><p class="when">Aug to Sep 2023</p><p>TheraCUES Innovations, Bangalore. Co-developed a rapid sepsis diagnostic test that cut time to diagnosis from 24+ hours to under two, and analyzed gene expression data from 30+ patient samples.</p></article>
-      <article class="xcard"><span class="trk">03</span><p class="kind">Leadership</p><h3>Design Head, Society for Biological Engineering (VIT)</h3><p class="when">Jan 2023 to Jan 2024</p><p>Led a 300-person student organization, planned 20+ events, and grew design team participation by 30%.</p></article>
-      <article class="xcard"><span class="trk">04</span><p class="kind">Leadership</p><h3>Vice President, Public Relations, Toastmasters (VIT)</h3><p class="when">Jul to Dec 2023</p><p>Grew club membership by 50% and mentored 8 junior students in public speaking.</p></article>
+      <article class="xcard"><span class="trk">01</span><div class="card-top"><span class="org-mark word-mark">Caldor</span><p class="kind">Work</p></div><h3>Quality &amp; Regulatory Associate, Medical Devices</h3><p class="when">Aug 2025 to Aug 2026</p><p>Caldor Health Technologies, Coimbatore. Built a 100+ document quality system from scratch and reached ISO 13485 certification with zero non-conformances. Ran a FMECA risk assessment across 11 subsystems and co-wrote proposals that secured $625,000 in funding.</p></article>
+      <article class="xcard"><span class="trk">02</span><div class="card-top"><span class="org-mark word-mark">TheraCUES</span><p class="kind">Internship</p></div><h3>Research Intern</h3><p class="when">Aug to Sep 2023</p><p>TheraCUES Innovations, Bangalore. Co-developed a rapid sepsis diagnostic test that cut time to diagnosis from 24+ hours to under two, and analyzed gene expression data from 30+ patient samples.</p></article>
+      <article class="xcard"><span class="trk">03</span><div class="card-top"><span class="org-mark word-mark">SBE</span><p class="kind">Leadership</p></div><h3>Design Head, Society for Biological Engineering (VIT)</h3><p class="when">Jan 2023 to Jan 2024</p><p>Led a 300-person student organization, planned 20+ events, and grew design team participation by 30%.</p></article>
+      <article class="xcard"><span class="trk">04</span><div class="card-top"><span class="org-mark word-mark">Toastmasters</span><p class="kind">Leadership</p></div><h3>Vice President, Public Relations, Toastmasters (VIT)</h3><p class="when">Jul to Dec 2023</p><p>Grew club membership by 50% and mentored 8 junior students in public speaking.</p></article>
     </div>
   </section>
 
@@ -110,7 +106,7 @@
           <!-- Replace # with your GitHub profile address -->
           <li><a href="#"><span class="ic"><svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg></span>GitHub</a></li>
         </ul>
-        <p><a class="btn ghost" href="cv.pdf" download>Download CV</a></p>
+        <p><a class="btn ghost" href="cv.pdf" download="kavin_cv.pdf">Download CV</a></p>
       </div>
     </div>
   </section>
